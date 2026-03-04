@@ -30,7 +30,5 @@ namespace WebApiPacientes.Controllers
                 return BadRequest(ex.Message); // Devuelve el error de validación
             }
         }
-
-        // ... Implementar PUT y DELETE similares
     }
 }
